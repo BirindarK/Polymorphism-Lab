@@ -6,6 +6,9 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 public class HotelTest {
     Hotel hotel;
 
+    Hotel profit1;
+
+
     @BeforeEach
     public void setUp(){
         hotel = new Hotel(300,310,"24.06.2010",10000,"Cardiff","Hilton","Hotel", 250500,"Double Room", true,350);
@@ -25,5 +28,7 @@ public class HotelTest {
     public void getNumberOfGuests(){
         assertThat(hotel.getNumberOfGuests()).isEqualTo(350);
     }
+
+
 
 }

@@ -41,6 +41,6 @@ public class HouseBoatTest {
         String result = houseBoat.isOwner("owns");
         assertThat(result).isEqualTo("Adam owns this property");
     }
-    
+
 }
 
