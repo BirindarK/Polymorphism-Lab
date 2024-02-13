@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Building {
+public abstract class Building {
 
     private Building addBuilding;
     private int numberOfRooms;

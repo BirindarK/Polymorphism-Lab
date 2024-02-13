@@ -1,6 +1,6 @@
 
 
-public class Residential extends Building {
+public abstract class Residential extends Building {
 
     private int numberOfOccupants;
     private String typeOfOccupant;
