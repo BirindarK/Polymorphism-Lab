@@ -1,12 +1,14 @@
-import java.time.LocalDate;
+import java.util.ArrayList;
 
-public abstract class Building {
+public class Building {
 
+    private Building addBuilding;
     private int numberOfRooms;
     private int numberOfBathrooms;
     private String dateOfConstruction;
     private int squareFootage;
     private String location;
+
 
     public Building (int numberOfRooms, int numberOfBathrooms, String dateOfConstruction, int squareFootage, String location) {
         this.numberOfRooms = numberOfRooms;
@@ -15,6 +17,7 @@ public abstract class Building {
         this.squareFootage = squareFootage;
         this.location = location;
     }
+
 
 //Getters and Setters
 
@@ -50,5 +53,7 @@ public void addBathroom(int bathroom){
 public void addSquareFootage(int squareFeet) {
     this.squareFootage += 1000;
 }
+
+
 
 }
